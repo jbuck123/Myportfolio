@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+/* Header section 
+-----------------------------------------*/
+
+li, a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;    
+    color: black;
+    text-decoration: none;
+}
+
+.main-header {
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 10%; 
+}
+.Portfolio {
+   color: lightslategrey; 
+   font-style: italic;
+}
+
+.logo {
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
+                        /* MAIN SECTION */
+
+.container{
+    display: flex;
+    height: auto;
+}
+
+.sub-container {
+display: block;
+margin: 5px;
+padding: 15px;
+background: dimgray;
+color: white;
+width: 25%;
+border: darkgoldenrod 5px solid;
+text-align: center;
+}
+
+.sub-container:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+                                        /* ARTICLE COLLUM */
+
+.picture{
+    position: relative;
+    
+
+}
+.firsttext{
+    position: absolute;
+    top: 17px;
+    left: 50px; 
+}
+.secondtext {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: medium;
+    color: whitesmoke;
+
+
+}
+.northdakota {
+    width: 100%;
+    height: 500px;
+
+}
+                                        /* footer */
+ .footer {
+display:flex;
+justify-content: space-between; 
+align-items: center;
+padding: 30px 10%; 
+}
+
+.Contact_links{
+    list-style: none;
+}
+.Contact_links a {
+    display: flex;
+    padding: 0px 20px;
+    float: left;
+   
+}
+.Contact_links a {
+    transition: all 0.3s ease 0s;
+}
+.Contact_links a:hover {
+    color: #0088a9;
+}
+                   
