@@ -48,11 +48,12 @@ li, a {
 
 .container{
     display: flex;
-    height: auto;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .sub-container {
-display: block;
+flex: 1 0 400px;
 margin: 5px;
 padding: 15px;
 background: dimgray;
@@ -68,8 +69,7 @@ text-align: center;
     text-shadow: 0 0 5px #ffee10;
 }
 .img {
-    /* width: fit-content;
-    height: fit-content; */
+
 }
                                         /* ARTICLE COLLUM */
 
@@ -79,12 +79,14 @@ text-align: center;
 
 }
 .firsttext{
-    position: absolute;
+    position: relative;
+   align-items: center;
     top: 17px;
     left: 50px; 
 }
 .secondtext {
-    position: absolute;
+    position:relative;
+    align-items: center;
     bottom: 20px;
     left: 10px;
     font-size: medium;
@@ -127,23 +129,17 @@ padding: 30px 10%;
 @media (max-width: 300px) { 
     p{
 
-        font-size: 10px;
+        font-size: 20px;
     }
-    .container{
+    nav .footer {
         flex-direction: column;
-        width: 100%;
     }
-
     }
 @media (max-height: 600px) {
     p{
 
-        font-size: 10px; 
+        font-size: 20px; 
     }
-    .container{
-        flex-direction: column;
-        width: 100%;
-
-    }
+   
 }
 
