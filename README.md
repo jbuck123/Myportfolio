@@ -4,3 +4,7 @@ This is an ongoing project that I will be adding to throughout the next 3-4 mont
 
 The placeholder images will eventually be filled with projects that I will complete and the about me section will use a better image and more indepth information about me.
 
+link to the website: https://jbuck123.github.io/Myportfolio/
+
+
+
