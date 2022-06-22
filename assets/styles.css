@@ -123,20 +123,22 @@ padding: 30px 10%;
 
 /* MEDIA QUERIES */
    
-@media (max-width: 300px) { 
+@media (min-width: 300px) { 
     p{
 
         font-size: 20px;
     }
-    nav .footer {
+    nav, footer {
         flex-direction: column;
     }
     }
-@media (max-height: 600px) {
+@media (min-height: 600px) {
     p{
 
         font-size: 20px; 
     }
-   
+    nav, footer {
+        flex-direction: column;
+    }
 }
 
