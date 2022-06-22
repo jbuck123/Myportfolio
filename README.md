@@ -6,5 +6,6 @@ The placeholder images will eventually be filled with projects that I will compl
 
 link to the website: https://jbuck123.github.io/Myportfolio/
 
+![portfolio demo](./assets/Develop/Images/Website.png)
 
 
