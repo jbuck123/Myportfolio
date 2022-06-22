@@ -68,37 +68,34 @@ text-align: center;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
 }
-.img {
-
-}
                                         /* ARTICLE COLLUM */
-
+.northdakota {
+ width: 100%;
+height: auto;
+opacity: 0.8;
+ }
 .picture{
-    display: flex;
+   position: relative;
     
 
 }
 .firsttext{
-    position: relative;
-   align-items: center;
-    top: 17px;
-    left: 50px; 
+    position:absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 75px;   
+    color: red;
 }
 .secondtext {
-    position:relative;
-    align-items: center;
+    position: absolute;
     bottom: 20px;
     left: 10px;
-    font-size: medium;
+    font-size: 20px;
     color: whitesmoke;
 
 
 }
-.northdakota {
-    width: 100%;
-    height: 500px;
 
-}
                                         /* footer */
  .footer {
 display:flex;
