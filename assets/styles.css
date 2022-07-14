@@ -45,7 +45,10 @@ li, a {
     color: #0088a9;
 }
                         /* MAIN SECTION */
-
+h2{
+    text-decoration: underline;
+    color: #ffee10;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
